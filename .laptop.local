@@ -1,0 +1,19 @@
+#!/bin/sh
+
+brew bundle --file=- <<EOF
+brew "docker-compose"
+brew "flyctl"
+brew "pyenv"
+brew "pyenv-virtualenv"
+brew "python"
+brew "vercel-cli"
+
+cask "1password"
+cask "docker"
+cask "google-chrome"
+cask "ngrok"
+cask "postman"
+cask "signal"
+cask "slack"
+cask "visual-studio-code"
+EOF
